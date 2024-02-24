@@ -3,7 +3,9 @@ $(function () {
   $(document).on('keypress', function (e) {
     var $target = $('#char-' + char_index);
     if (e.key === $target.text()) {
-      alert('正解');
+      $target.removeClass('default');
+      $target.addClass('correct');
+      char_index++;
     }
   });
 
