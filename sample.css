@@ -1,0 +1,25 @@
+#main {
+  text-align: center;
+}
+
+#content {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+#mondai {
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+}
+
+.text.default {
+  text-shadow: 1px 1px 0 #000;
+}
+
+.text {
+  padding: 2px;
+}
